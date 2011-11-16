@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+html, body {
+	font-family: Helvetica Neue, Helvetica, Open Sans, sans-serif;
+	font-size: 100%;
+	line-height: 1.5;
+	color: #eee;
+	-webkit-font-smoothing: antialiased;
+	background: #333;
+}
+
+a { color: #f64; font-weight: bold; text-decoration: none; }
+
+body {
+	min-height: 100%;
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 24px;
+	overflow-x: hidden;
+}
+
+.slipnslider {
+	max-width: 960px;
+	margin: 0 auto;
+	height: 500px;
+}
